@@ -1,4 +1,4 @@
-from operacoes.multiplicacao import multiplicar
+from CalculadoraService import multiplicar
 
 def teste_multiplicando_com_sucesso():
     resultado = multiplicar(4, 5)
