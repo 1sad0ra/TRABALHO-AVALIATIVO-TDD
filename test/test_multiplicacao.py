@@ -16,3 +16,6 @@ def teste_multiplicando_numeros_negativos():
 #          Deve retornar a multiplicação de dois números positivos;
 #          Deve retornar zero quando um dos valores for zero;
 #          Deve funcionar corretamente com números negativos.
+
+
+# para rodar o teste use o comando: pytest 
