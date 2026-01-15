@@ -13,9 +13,6 @@ O sistema deverá implementar uma classe chamada CalculadoraService,contendo os 
 - somar(a, b)
 - subtrair(a, b)
 - multiplicar(a, b)
-- dividir(a, b)
-- isPar(numero)
-- validarNumeroPositivo(numero)
 
 ## Métodos de Teste a serem Criados
 Os alunos deverão criar testes unitários antes da implementação dos métodos acima.
