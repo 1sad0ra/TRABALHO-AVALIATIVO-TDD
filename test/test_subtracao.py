@@ -3,4 +3,14 @@
 from CalculadoraService import subtrair 
 
 def teste_subtraindo():
-    assert subtrair(10, 5) == 5
+    resultado = subtrair(10, 5) 
+    assert resultado == 5
+
+def teste_subtracao_com_resultado_negativo():
+    resultado = subtrair(4, 10)
+    assert resultado == -6
+
+
+def teste_subtracao_com_valores_iguais():
+    resultado = subtrair(5, 5)
+    assert resultado == 0
