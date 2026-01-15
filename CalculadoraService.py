@@ -1,6 +1,6 @@
 from operacoes.multiplicacao import multiplicar
 from operacoes.subtracao import subtrair
-from operacoes.adicao import adicao
+
 
 class Calculadora:
 
