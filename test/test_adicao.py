@@ -2,18 +2,18 @@ from CalculadoraService import adicao
 
 #soma errada
 def test_adicao_numeros_positivos():
-    resultado = adicao(1, 7)
+    resultado = adicao(3, 7)
     assert resultado == 10
 
 #soma errada
 def test_adicao_positivo_negativo():
-    resultado = adicao(4, -2)
+    resultado = adicao(5, -2)
     assert resultado == 3
 
 #adição dos zeros errada
 def test_adicao_zeros():
     resultado = adicao(0, 0)
-    assert resultado == 5
+    assert resultado == 0
 
 #numero interio somado com float
 def test_adicao_aceitar_floats():
@@ -23,7 +23,7 @@ def test_adicao_aceitar_floats():
 #soma com string
 def test_adicao_strings():
     resultado = adicao("a", 5)
-    assert resultado == "a5"
+    assert resultado == "Erro: Entrada inválida"
     
 #----------Testes para o método adicao(a, b)----------#
 # Deve retornar a soma de dois números positivos;
