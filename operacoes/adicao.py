@@ -5,10 +5,10 @@
 #GREEN
 
 def adicao(a, b):
-
-    if not (isinstance(a, (int, float)) and isinstance(b, (int, float))):
+    try:
+        a = int(a) if str(a).isdigit() else float(a)
+        b = int(b) if str(b).isdigit() else float(b)
+    except (ValueError, TypeError):
         return "Erro: Entrada inválida"
-    
-    
+
     return a + b
-    
