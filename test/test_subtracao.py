@@ -14,3 +14,12 @@ def teste_subtracao_com_resultado_negativo():
 def teste_subtracao_com_valores_iguais():
     resultado = subtrair(5, 5)
     assert resultado == 0
+
+
+def test_subtracao_strings():
+    try:
+        subtrair("a", 5)
+    except TypeError:
+        assert True
+    else:
+        assert False
