@@ -18,12 +18,13 @@ def test_adicao_zeros():
 #numero interio somado com float
 def test_adicao_aceitar_floats():
     resultado = adicao(2, 3.5)
-    assert resultado == 6
+    assert resultado == 5.5
 
 #soma com string
 def test_adicao_strings():
     resultado = adicao("a", 5)
     assert resultado == "Erro: Entrada inválida"
+    
     
 #----------Testes para o método adicao(a, b)----------#
 # Deve retornar a soma de dois números positivos;
