@@ -25,6 +25,7 @@ def test_adicao_strings():
     resultado = adicao("a", 5)
     assert resultado == "Erro: Entrada inválida"
     
+    
 #----------Testes para o método adicao(a, b)----------#
 # Deve retornar a soma de dois números positivos;
 # Deve retornar a soma de um número positivo e um negativo;
